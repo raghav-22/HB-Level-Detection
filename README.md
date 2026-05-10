@@ -100,10 +100,11 @@ Healthcare computer vision systems
 Medical image analysis
 Smart diagnostic systems
 
+📜 License
+This repository is intended for research and educational purposes only.
 
 🤝 Contributions
 Contributions and improvements are welcome.
-
 
 ⭐ Project Highlights
 ✔ Instance Segmentation
