@@ -3,7 +3,6 @@
 This project presents an AI-powered pipeline for Hemoglobin (HB) level detection using eye images. The system combines instance segmentation and deep learning classification to identify anemia-related patterns from conjunctiva images.
 
 The project uses:
-
 Detectron2 Mask R-CNN for eye/conjunctiva segmentation
 MobileNetV2 for HB level classification
 TensorFlow & PyTorch for model development
@@ -30,6 +29,7 @@ Uses MobileNetV2 Transfer Learning
 Predicts:
 Low HB (Anemia)
 Normal HB
+
 🛠️ Technologies Used
 Python
 TensorFlow / Keras
@@ -41,21 +41,17 @@ MobileNetV2
 NumPy / Pandas / Matplotlib
 
 📂 Dataset
-
 The segmentation dataset is trained using:
-
 COCO segmentation annotations
 Roboflow dataset management
 
 Dataset includes:
-
 Eye/conjunctiva images
 Segmentation masks
 HB classification labels
 
 ⚙️ Installation
 Install dependencies:
-
 pip install tensorflow torch torchvision
 pip install opencv-python matplotlib pandas numpy
 pip install roboflow
@@ -86,20 +82,15 @@ history = model.fit(
 )
 
 🔍 Inference Pipeline
-
 The system:
-
 Segments eye region
 Extracts conjunctiva area
 Runs HB classification
 Predicts anemia status
 
 Example Output:
-
 HB level is low
-
 or
-
 HB level is normal
 
 📈 Applications
@@ -111,12 +102,10 @@ Smart diagnostic systems
 
 
 🤝 Contributions
-
 Contributions and improvements are welcome.
 
 
 ⭐ Project Highlights
-
 ✔ Instance Segmentation
 ✔ Medical Image Processing
 ✔ Transfer Learning
